@@ -1,13 +1,61 @@
 ---
 layout   : default
 permalink: /
-# Custom Page Variables
-# ─────────────────────
-title: Bootstrap 4 &mdash; Voorbeeld
+#
+title: Catcall &mdash; Home
 ---
-<div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-</div>
-<div class="container">
-    <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
-</div>
+
+  <div>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <header class="featurette-heading" class="ontmoeteddie"><b>ONTMOET EDDIE!</b></header>
+        <p class="lead">Eddie, een huiselijke en sociale kat die u kunt huren voor die <br>eenzame avonden voor de beeldbuis, smachtend naar sociaal contact.</p>
+        <p><a class="btn btn-outline-dark" href="{{ site.baseurl }}{% link pages/eddieinhuis.html %}" role="button">Haal Eddie in huis! &raquo;</a></p>
+      </div>
+      <div class="col-md-5 order-md-1" style="absolute">
+        <img class="featurette-image img-fluid mx-auto wolken" src="assets/img/png/eddieinwolken.png" alt="eddie in de wolken">
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="container marketing">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="circle">
+          <h2 class="marketing">1</h2>
+        </div>
+        <h2 class="elements">Zacht</h2>
+      </div>
+      <div class="col-lg-3">
+        <div class="circle">
+          <h2 class="marketing">2</h2>
+        </div>
+        <h2 class="elements">Aanhankelijk</h2>        
+      </div>
+      <div class="col-lg-3">
+        <div class="circle">
+          <h2 class="marketing">3</h2>
+        </div>
+        <h2 class="elements">Netjes</h2>
+      </div>
+      <div class="col-lg-3">
+        <div class="circle">
+          <h2 class="marketing">4</h2>
+        </div>
+        <h2 class="elements">Lief</h2>
+      </div>
+    </div>
+
+    <div class="row featurette huren">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Waarom huren?</h2>
+        <p class="lead">Kent u die avonden, u ligt gezellig in de zetel, een romantische film op tv maar toch mist u iets. Dan is Eddie de ideale oplossing. Onze kat vergezelt u en zorgt voor een warme sfeer in huis.<br> Ook wanneer u zelf geen huisdieren wilt maar uw kinderen toch een plezier wilt doen door een weekje een kat te huren dan bent u bij ons aan het juist adres. </p>
+        <p><a class="btn btn-outline-dark" href="{{ site.baseurl }}{% link pages/eddieinhuis.html %}" role="button">Haal Eddie in huis! &raquo;</a></p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto wolken" src="assets/img/png/eddievoorzon.png" alt="eddie in de wolken">
+      </div>
+    </div>
+  </div>

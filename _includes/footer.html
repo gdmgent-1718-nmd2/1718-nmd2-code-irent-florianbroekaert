@@ -1,5 +1,31 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
-{%- if site.show-style-guide %}
-    <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
-{%- endif %}
-</nav>
+<footer class="footer">
+    <div class="row">
+        <div class="col-md-2">
+            <ul>
+                <li><a href="{{ site.baseurl }}{% link pages/index.html %}"><h4>Home</h4></a></li>
+                <li><a href="{{ site.baseurl }}{% link pages/eddieinhuis.html %}">Haal Eddie in huis</a></li>
+                <li><a href="{{ site.baseurl }}{% link pages/overeddie.html %}">Over Eddie</a></li>
+                <li><a href="{{ site.baseurl }}{% link pages/vragen.html %}">Vragen</a></li>
+            </ul>
+
+        </div>
+        <div class="col-md-2">
+            <ul>
+                <li><a href="#"><h4>Contact</h4></a></li>
+                <li><a href="mailto:catcall@info.be">Catcall@info.be</a></li>
+                <li><a href="#">(079)18 463 831</a></li>
+            </ul>
+        </div>
+        <div class="col-md-7">
+            <ul class="social-icons">
+                <li><a href="#"><h4>Follow us on</h4></a></li>
+                <li><a href="https://www.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com/" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.rss.com/" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+                <li><a href="https://www.youtube.com/" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.google.com/" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>

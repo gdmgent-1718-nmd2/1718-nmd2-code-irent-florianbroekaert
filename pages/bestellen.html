@@ -1,0 +1,118 @@
+---
+layout   : default
+permalink: bestellen/
+#
+title: Catcall &mdash; Bestellen
+---
+
+<div class="worko-tabs">
+    <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked />
+    <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two" />
+    <input class="state" type="radio" title="tab-four" name="tabs-state" id="tab-four" />
+
+    <div class="tabs flex-tabs">
+        <label for="tab-one" id="tab-one-label" class="tab">Periode</label>
+        <label for="tab-two" id="tab-two-label" class="tab">Gegevens</label>
+        <label for="tab-four" id="tab-four-label" class="tab">Betalen</label>
+        <div id="tab-one-panel" class="panel active">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Van*</label>
+                    <input type="name" class="form-control" id="inputName4" placeholder="DD/MM/JJJ">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Tot*</label>
+                    <input type="name" class="form-control" id="inputName4" placeholder="DD/MM/JJJ">
+                </div>
+            </div>
+            <button href="{{ site.baseurl }}{% link pages/bevestiging.html %}" type="submit" class="btn btn-outline-dark col-md-12">Ga verder</button>
+        </div>
+        <div id="tab-two-panel" class="panel">
+          <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Naam*</label>
+                  <input type="name" class="form-control" id="inputName4" placeholder="Naam">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Voornaam*</label>
+                  <input type="name" class="form-control" id="inputName4" placeholder="Voornaam">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Adres*</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Adres">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">(Adres 2)</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="(Adres 2)">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">Stad*</label>
+                  <input type="text" class="form-control" id="Stad">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">Provincie*</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Kiezen...</option>
+                    <option>West-Vlaanderen</option>
+                    <option>Oost-Vlaanderen</option>
+                    <option>Antwerpen</option>
+                    <option>Vlaams-Brabant</option>
+                    <option>Waals-Brabant</option>
+                    <option>Brussel</option>
+                    <option>Limburg</option>
+                    <option>Henegouwen</option>
+                    <option>Namen</option>
+                    <option>Luik</option>
+                    <option>Luxemburg</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Postcode*</label>
+                  <input type="text" class="form-control" id="Postcode">
+                </div>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="">
+                    Onthoud mijn gegevens
+                </label>
+              </div>
+              <button href="#" type="submit" class="btn btn-outline-dark col-md-12">Ga verder naar betaling</button>
+            </form>
+        </div>
+        <div id="tab-four-panel" class="panel">
+              <form>
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                      <label for="inputEmail4">Naam op kaart*</label>
+                      <input type="Name" class="form-control" id="inputName4" placeholder="Naam">
+                      </div>
+                      <div class="form-group col-md-6">
+                      <label for="inputPassword4">Kredietkaartnummer*</label>
+                      <input type="name" class="form-control" id="inputName4" placeholder="Voornaam">
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                      <label for="inputEmail4">Geldig tot* </label>
+                      <input type="name" class="form-control" id="inputName4" placeholder="MM/JJ">
+                      </div>
+                      <div class="form-group col-md-6">
+                      <label for="inputPassword4">CVC/CVV*</label>
+                      <input type="name" class="form-control" id="inputName4" placeholder="...">
+                      </div>
+                  </div>
+                  <div class="form-check">
+                      <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" value="">
+                          Onthoud mijn gegevens
+                      </label>
+                  </div>
+                  <button href="{{ site.baseurl }}{% link pages/bevestiging.html %}" type="submit" class="btn btn-outline-dark col-md-12">Bevestig Betaling</button>
+              </form>
+        </div>
+    </div>
+</div>
