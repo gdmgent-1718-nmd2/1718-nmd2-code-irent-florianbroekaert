@@ -209,6 +209,15 @@ ul.social-icons {
     margin-top: 10px;
     overflow: hidden;
   }
+   /* BEVESTIGING
+  -------------------------------------------------- */
+
+  .bevestiging{
+    font-size: 5em;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
  /* FOUTCODE
   -------------------------------------------------- */
@@ -352,6 +361,7 @@ ul.social-icons {
     border-radius: 5px;
     margin: -1px;
     margin-bottom: 10px;
+    padding: 20px;
 
   }
   #headingTwo.card-header{
@@ -360,6 +370,7 @@ ul.social-icons {
     border-radius: 5px;
     margin: -1px;
     margin-bottom: 10px;
+    padding: 20px;
   }
   #headingThree.card-header{
     background-color:$blue;
@@ -367,6 +378,7 @@ ul.social-icons {
     border-radius: 5px;
     margin: -1px;
     margin-bottom: 10px;
+    padding: 20px;
   }
   #headingFour.card-header{
     background-color: $blue;
@@ -374,13 +386,15 @@ ul.social-icons {
     border-radius: 5px;
     margin: -1px;
     margin-bottom: 10px;
+    padding: 20px;
   }
   #headingFive.card-header{
     background-color: $blue;
     border: 3px solid $black;
     border-radius: 5px;
     margin: -1px;
-    margin-bottom: 10px;
+    padding: 20px;
+    
   }
     /* FORM 
   -------------------------------------------------- */
